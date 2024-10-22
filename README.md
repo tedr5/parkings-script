@@ -35,7 +35,7 @@ python parkings.py
 📂 **Repository Files**
 
 - **parkings.py:** Downloads a CSV file with parking availability, processes the data, and saves it to a MySQL database.  It serves as the initial step for sending data acquired by API to the landing zone database.
-- **fills.py:** Combines and cleans multiple CSV files containing parking information, preparing the data for database import. This is useful when dealing with loss data from specific dates.
+- **fills.py:** This is used when dealing with loss data from specific dates. It combines and cleans multiple CSV files containing parking information, preparing the data for database import. 
 - **upload.py:** Downloads a CSV file from a URL, saves it locally, uploads it to a Mega account for backup. This is a safeguard against data loss during the extraction process. 
 
 📊 **Data Structures**
